@@ -1,10 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1>O Menestrel – William Shakespeare</h1>
+        <div><Link href="/home" >home</Link></div>
         <p>
 Depois de algum tempo você aprende a diferença,
 a sutil diferença entre dar a mão e acorrentar uma alma.
@@ -74,7 +77,7 @@ em vez de esperar que alguém lhe traga flores.
 E você aprende que realmente pode suportar…
 que realmente é forte,
 e que pode ir muito mais longe depois de pensar que não se pode mais.
-E que realmente a vida tem valor e que você tem valor diante da vida!
+E que realmente a vida tem valor e que você tem valor dinpmante da vida!
 Nossas dúvidas são traidoras e nos fazem perder o bem
 que poderíamos conquistar se não fosse o medo de tentar.</p>
       </main>
